@@ -25,7 +25,7 @@ let Shot = document.querySelector('.shot'),
     CountLevel = 1,
     CountWin = 0;
 
-    let x = 2;//targets for lvl
+    let x = 5;//targets for lvl
 
 Tir.addEventListener('click', PlayShot);
 Passed.addEventListener('click', GoNext);
