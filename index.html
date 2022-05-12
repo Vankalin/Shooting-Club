@@ -30,20 +30,44 @@
             <div class="table">
             </div>
         </div>
-        <div class="passed">
-            <div class="passed_img">
-                <img src="https://res.cloudinary.com/vankalin/image/upload/v1646731995/Tir/pased_text.png" alt="Coll">
-            </div>
-        </div>
+
         <div class="target target__vertical tv1"></div>
         <div class="target target__vertical tv2"></div>
         <div class="target target__vertical tv3"></div>
         <div class="target target__vertical tv4"></div>
         <div class="target target__vertical tv5"></div>
-        
+        <!-- Start game -->
         <div class="start_modal">
             <button class="start">Start</button>
         </div>
+
+        <!-- Passed lvl -->
+        <div class="passed">
+            <div class="passed_img">
+                <img src="https://res.cloudinary.com/vankalin/image/upload/v1646731995/Tir/pased_text.png" alt="Coll">
+            </div>
+        </div>
+        
+        <!-- Pause -->
+        <div class="tir__control">
+            <button class="pause-btn hide">II</button>
+            <button class="settings-btn">⚙</button>
+        </div>
+        <div class="pause-modal hide">
+            <img class="pause-modal__img" src="https://res.cloudinary.com/vankalin/image/upload/v1652371826/Tir/play_t8klau.svg" alt="play">
+        </div>
+        <div class="settings-modal hide">
+            <div class="settings-modal__content">
+                <div class="settings-modal__properties">
+                    <center>Complexity</center>
+                    <div class="settings-modal__complexity">
+                        <span class="settings-modal__complexity_text">Easy</span>
+                        <input type="range" name="complexity" id="game-complexity" min="0" max="4" value="0" step="1">                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <audio class="shot" src="https://res.cloudinary.com/dspfsamgq/video/upload/v1579119151/shot_aa6yw3.mp3"></audio>
