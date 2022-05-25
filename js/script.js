@@ -5,27 +5,33 @@ let Shot = document.querySelector('.shot'),
 
     TargetVertical = document.querySelectorAll('.target__vertical'),
     Targets = document.querySelector('.targets'),
+    
     Start = document.querySelector('.start'),
     StartModal = document.querySelector('.start_modal'),
+    
     SettingsBtn = document.querySelector('.settings-btn'),
     PauseBtn = document.querySelector('.pause-btn'),
+    
     SettingsModal = document.querySelector('.settings-modal'),
     PauseModal = document.querySelector('.pause-modal'),
+    
     SettingsProperties = document.querySelector('.settings-modal__properties'),
     GameComplexity = document.querySelector('#game-complexity'),
     TextComplexity = document.querySelector('.settings-modal__complexity_text'),
+    
     Tir = document.querySelector('.tir'),
     Passed =document.querySelector('.passed'),
     Count =  document.querySelector('.count strong'),
     Level =  document.querySelector('.level strong'),
     Show = document.querySelector('.show'),
     Hide = document.querySelector('.hide'),
+    
     CurrentComplexity = 0,
     Counter = 0,
     CountLevel = 1,
     CountWin = 0;
 
-    let x = 5;//targets for lvl
+    let x = 5;//targets for lvl 
 
 Tir.addEventListener('click', PlayShot);
 Passed.addEventListener('click', GoNext);
@@ -53,11 +59,9 @@ function OpenSettingsModal(){
 function CloseSettingsModal(e){
     e.target===SettingsModal?SettingsModal.classList.add('hide'):SettingsModal.classList.remove('hide');
     
-
 }
 function HideSettingsBtn(){
     SettingsBtn.classList.add('hide');
-
 }
 function ShowSettingsBtn(){
     SettingsBtn.classList.remove('hide');
