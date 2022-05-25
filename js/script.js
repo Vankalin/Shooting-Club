@@ -73,9 +73,6 @@ function HidePauseBtn(){
 function ShowPauseBtn(){
     PauseBtn.classList.remove('hide');
 }
-
-
-
 function ChangeComplexity(e){
     ComplexityList = ['Easy','Normal','Hard','Master','Impossible']
     CurrentComplexity = e.target.value
@@ -99,21 +96,12 @@ function ChangeComplexity(e){
         default:
             break;
     }
-   
-
 }
-
-
-
 function GoStart(){
     ShowPauseBtn();
     StartModal.style.display = 'none';
     Level.textContent = ' '+CountLevel;
 }
-
-
-
-
 function PlayShot(event) {
     let tg = event.target;
     if(tg.classList.contains('target')){
@@ -152,7 +140,6 @@ function PlayShot(event) {
         Shot.play();
     }  
 }
-
 function Lvl1() {
     if (Counter == 5) {
         setTimeout(replay,400);
@@ -201,10 +188,6 @@ function GoNext(){
     if(CountWin == 5){
         CreateMoveVlvl();
     };
- 
-
-
-
 }
 
 function CreateMoveHlvl(n) {
