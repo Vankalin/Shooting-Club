@@ -22,7 +22,6 @@ body{
     flex-direction: column;
     align-items: center;
     cursor: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1579257122/5a3755ce3a48f0.7723702415135758862387_jvy9hf.png) 25 25, default;
-
 }
 .tir_info{
     display: flex;
@@ -31,9 +30,7 @@ body{
     width: 90%;
     margin-top: -50px;
     color: #E99C50;
-
 }
-
 .pleace_tir{
     width: 90%;
 }
@@ -47,10 +44,7 @@ body{
     background: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1576677836/sprite2_vcnzd8.png) center bottom/15vh auto no-repeat;
     transform-origin: 50% bottom;
     transition:.5s;
-
 }
-
-
 .table{
     border-bottom: 10px solid #E99C50;
     z-index: -1;
@@ -62,8 +56,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    align-items: end;
-    
+    align-items: end; 
 }
 .start{
     width: 150px;
@@ -75,7 +68,6 @@ body{
     margin-bottom: 35px;
     cursor: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1579257122/5a3755ce3a48f0.7723702415135758862387_jvy9hf.png) 25 25, default;
 }
-
 .passed{
     width: 100%;
     height: 100%;
@@ -98,7 +90,6 @@ body{
     align-items: center;
     right: 5%;
     bottom: 5%;
-
 }
 .tir__control button{
     width: 60px;
@@ -113,15 +104,11 @@ body{
     color:#ffffff;
     background-color:#E99C50;
     border-radius:100%;
-        
-    
 }
 .settings-btn:hover{
     background-color:#e99037;
     transform: scale(1.05);
-
 }
-
 .settings-modal, .pause-modal{
     position: absolute;
     width: 100%;
