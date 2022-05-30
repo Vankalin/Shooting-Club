@@ -91,8 +91,6 @@ function ChangeComplexity(e){
         case 5:
             CreateMoveHlvl(4.5-CurrentComplexity)
             break;
-    
-    
         default:
             break;
     }
@@ -116,7 +114,6 @@ function PlayShot(event) {
         if(CountWin == 1){
             setTimeout(replay,3000);
             WhenWin(x);
-
         }
         if(CountWin == 2){
             setTimeout(replay,2000);
@@ -159,7 +156,6 @@ function WhenWin(n) {
         Win();        
     } 
 }
-
 function GoNext(){
     ShowSettingsBtn();
     Passed.style.display = ('none');
