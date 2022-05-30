@@ -156,26 +156,21 @@ img{
 .show{
     display: block;
 }
-
 .move2lvl{
     animation: Move2lvl linear alternate infinite;
     animation-duration: 3s;
     margin-left: 2%;
-
 }
-
 @keyframes Move2lvl {
     100%{
        margin-left: 90%;
     }    
 }
-
 .target__vertical{
     position: absolute;
     animation: tfallen linear infinite;
     top: -20vh;
     display: none;
-
 }
 .stop{
     animation-play-state: paused;
@@ -200,12 +195,8 @@ img{
     left: 65vw;
     animation-duration: 4s;
 }
-
 @keyframes tfallen {
     100%{
         top: 100vh;
-        
     }
-    
 }
-
